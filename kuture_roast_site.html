@@ -1,0 +1,386 @@
+<!-- Kuture Roast — Multi-page Minimal Site (4 files in one document)
+     Files included below. Copy each section into separate files named as indicated.
+     Replace `+254700000000` in the WhatsApp link with your number (country code + number) before publishing.
+-->
+
+---- file: index.html ----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kuture Roast — Home</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/index.html">Kuture Roast</a>
+      <nav class="nav">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/products.html">Products</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div>
+        <h1>Small batch roasted coffee, made for your daily grind.</h1>
+        <p class="lead">Clean, simple flavours — ethically sourced beans roasted with care.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="/products.html">View Products</a>
+          <a class="btn outline" href="https://wa.me/254700000000?text=Hi%20Kuture%20Roast%20I%27d%20like%20to%20order" target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </div>
+      <figure class="hero-image" aria-hidden>
+        <img src="/assets/hero-coffee.jpg" alt="Coffee cup on table">
+      </figure>
+    </section>
+
+    <section class="features container">
+      <div class="feature">
+        <h3>Single-origin & blends</h3>
+        <p>Carefully selected beans for consistent flavour in every cup.</p>
+      </div>
+      <div class="feature">
+        <h3>Small batch roasting</h3>
+        <p>Roasted to order to preserve freshness.</p>
+      </div>
+      <div class="feature">
+        <h3>Local pickup & delivery</h3>
+        <p>Pickup from CCI building or delivery within Nairobi.</p>
+      </div>
+    </section>
+
+    <section class="container quick-products">
+      <h2>Popular picks</h2>
+      <div class="products-grid">
+        <!-- Product cards are placeholders; populate later on products.html -->
+        <article class="product">
+          <div class="thumb" style="background:#eee;">250g</div>
+          <h4>Classic Roast</h4>
+          <p class="price">Ksh 350</p>
+        </article>
+        <article class="product">
+          <div class="thumb" style="background:#eee;">250g</div>
+          <h4>Morning Blend</h4>
+          <p class="price">Ksh 380</p>
+        </article>
+        <article class="product">
+          <div class="thumb" style="background:#eee;">250g</div>
+          <h4>Decaf</h4>
+          <p class="price">Ksh 320</p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Kuture Roast</h4>
+        <p>CCI Building — Nairobi</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="https://wa.me/254700000000?text=Hi%20Kuture%20Roast" target="_blank" rel="noopener">WhatsApp us</a></p>
+        <p><a href="mailto:hello@kuture-roast.com">hello@kuture-roast.com</a></p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <p><a href="/products.html">Products</a> · <a href="/about.html">About</a> · <a href="/contact.html">Contact</a></p>
+      </div>
+    </div>
+    <div class="container credit">© <span id="year"></span> Kuture Roast</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+---- file: about.html ----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kuture Roast — About</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/index.html">Kuture Roast</a>
+      <nav class="nav">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/products.html">Products</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="about-hero">
+      <h1>About Kuture Roast</h1>
+      <p class="muted">(You can edit this content later.)</p>
+    </section>
+
+    <section class="about-content">
+      <h2>Our Story</h2>
+      <p>Write your About copy here — origin story, mission, and values. When you're ready I can help edit it for tone and length.</p>
+
+      <h3>Our Roast Philosophy</h3>
+      <p>Short paragraph here about sourcing, roasting, and sustainability.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Kuture Roast</h4>
+        <p>CCI Building — Nairobi</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="https://wa.me/254700000000?text=Hi%20Kuture%20Roast" target="_blank" rel="noopener">WhatsApp us</a></p>
+        <p><a href="mailto:hello@kuture-roast.com">hello@kuture-roast.com</a></p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <p><a href="/products.html">Products</a> · <a href="/index.html">Home</a> · <a href="/contact.html">Contact</a></p>
+      </div>
+    </div>
+    <div class="container credit">© <span id="year2"></span> Kuture Roast</div>
+  </footer>
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+---- file: products.html ----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kuture Roast — Products</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/index.html">Kuture Roast</a>
+      <nav class="nav">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/products.html">Products</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1>Products</h1>
+      <p class="muted">Add product names, descriptions and prices in the HTML or use a lightweight CMS later.</p>
+
+      <div class="products-grid">
+        <!-- Example product card (duplicate/replace as needed) -->
+        <article class="product-card">
+          <div class="card-thumb">250g</div>
+          <div class="card-body">
+            <h3>Classic Roast</h3>
+            <p class="desc">Balanced notes, suitable for filter and espresso.</p>
+            <div class="card-row">
+              <div class="price">Ksh 350</div>
+              <a class="btn small" href="https://wa.me/254700000000?text=I%20want%20to%20order%20Classic%20Roast" target="_blank">Order</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- empty card for future population -->
+        <article class="product-card empty">
+          <div class="card-thumb">—</div>
+          <div class="card-body">
+            <h3>Product name</h3>
+            <p class="desc">Description goes here.</p>
+            <div class="card-row">
+              <div class="price">Ksh —</div>
+              <a class="btn small" href="#">Order</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Kuture Roast</h4>
+        <p>CCI Building — Nairobi</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="https://wa.me/254700000000?text=Hi%20Kuture%20Roast" target="_blank" rel="noopener">WhatsApp us</a></p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <p><a href="/index.html">Home</a> · <a href="/about.html">About</a> · <a href="/contact.html">Contact</a></p>
+      </div>
+    </div>
+    <div class="container credit">© <span id="year3"></span> Kuture Roast</div>
+  </footer>
+  <script>document.getElementById('year3').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+---- file: contact.html ----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kuture Roast — Contact</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/index.html">Kuture Roast</a>
+      <nav class="nav">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/products.html">Products</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h1>Contact & Order</h1>
+    <p class="muted">Reach out via WhatsApp or email. We also accept pickups at CCI building.</p>
+
+    <div class="contact-grid">
+      <div class="card">
+        <h3>WhatsApp</h3>
+        <p><a href="https://wa.me/254700000000?text=Hello%20Kuture%20Roast" target="_blank">Message us on WhatsApp</a></p>
+      </div>
+
+      <div class="card">
+        <h3>Email</h3>
+        <p><a href="mailto:hello@kuture-roast.com">hello@kuture-roast.com</a></p>
+      </div>
+
+      <div class="card">
+        <h3>Location</h3>
+        <p>CCI Building, Nairobi (pickup available)</p>
+      </div>
+    </div>
+
+    <section class="map-embed">
+      <!-- Replace the src with your Google Maps embed if you have one -->
+      <iframe src="https://www.google.com/maps?q=CCI%20Building%20Nairobi&output=embed" style="border:0;width:100%;height:300px;"></iframe>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Kuture Roast</h4>
+        <p>CCI Building — Nairobi</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="https://wa.me/254700000000?text=Hi%20Kuture%20Roast" target="_blank" rel="noopener">WhatsApp us</a></p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <p><a href="/index.html">Home</a> · <a href="/about.html">About</a> · <a href="/products.html">Products</a></p>
+      </div>
+    </div>
+    <div class="container credit">© <span id="year4"></span> Kuture Roast</div>
+  </footer>
+  <script>document.getElementById('year4').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+---- file: /assets/styles.css ----
+/* Minimal & clean theme — white + green accent + coffee brown highlights */
+:root{
+  --bg:#fafafa;
+  --text:#111;
+  --muted:#6b6b6b;
+  --accent-green:#2e7d52; /* primary green */
+  --accent-brown:#5a3b2e; /* coffee tone */
+  --max-width:1100px;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; color:var(--text); background:var(--bg);}
+.container{max-width:var(--max-width);margin:0 auto;padding:28px}
+.site-header{background:#fff;border-bottom:1px solid #eee}
+.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:700;color:var(--accent-brown);text-decoration:none;font-size:20px}
+.nav a{margin-left:18px;color:var(--muted);text-decoration:none}
+.nav a:hover{color:var(--text)}
+.hero{display:flex;gap:40px;align-items:center;padding:48px 0}
+.hero h1{font-size:32px;margin:0 0 12px}
+.lead{color:var(--muted);margin:0 0 20px}
+.hero-image img{width:360px;max-width:40vw;border-radius:12px}
+.cta-row{display:flex;gap:12px}
+.btn{display:inline-block;padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:600}
+.btn.primary{background:var(--accent-green);color:#fff}
+.btn.outline{border:1px solid var(--accent-brown);color:var(--accent-brown);background:transparent}
+.features{display:flex;gap:20px;padding:30px 0}
+.feature{flex:1;background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.03)}
+.products-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.product, .product-card{background:#fff;padding:14px;border-radius:10px;border:1px solid #f0f0f0}
+.thumb, .card-thumb{height:120px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:700}
+.price{font-weight:700;color:var(--accent-brown)}
+.card-row{display:flex;justify-content:space-between;align-items:center;margin-top:10px}
+.small{padding:8px 10px}
+.site-footer{margin-top:40px;border-top:1px solid #eee;padding:18px 0;background:#fff}
+.footer-grid{display:flex;gap:20px;justify-content:space-between}
+.credit{text-align:center;color:var(--muted);padding:8px 0}
+.muted{color:var(--muted)}
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.card{background:#fff;padding:14px;border-radius:8px}
+@media (max-width:800px){
+  .hero{flex-direction:column}
+  .hero-image img{max-width:100%}
+  .footer-grid{flex-direction:column}
+}
+
+/* utility */
+.empty{opacity:0.6}
+
+---- file: HOSTING-INSTRUCTIONS.txt ----
+Kuture Roast — How to publish (quick)
+
+Option A — GitHub Pages (free)
+1. Create a GitHub repository named `kuture-roast`.
+2. Add the files (index.html, about.html, products.html, contact.html) and a folder `assets` with styles.css and any images (hero-coffee.jpg).
+3. In repo Settings → Pages, choose branch `main` and folder `/ (root)` and save.
+4. Your site will be published at: `https://<your-github-username>.github.io/kuture-roast/` (use HTTPS). Example: `https://manu.github.io/kuture-roast/`.
+
+Option B — Netlify (drag & drop)
+1. Zip the site files (root with index.html) and drag the zip to Netlify Drop (https://app.netlify.com/drop).
+2. Netlify will publish to a random subdomain like `https://sleepy-kangaroo-12345.netlify.app/` — you can set a custom domain.
+
+Option C — Vercel
+1. Create a Vercel account and import the repo.
+2. Deploy and receive a `https://<project>.vercel.app` URL.
+
+Notes:
+- Replace the WhatsApp placeholder number `254700000000` with your phone number.
+- To use `http://` specifically (non-SSL) is discouraged; hosts above provide `https://` by default. If you must use `http://` with a custom domain, configure DNS and hosting provider accordingly. I recommend HTTPS.
+
+---- END OF DOCUMENT ----
