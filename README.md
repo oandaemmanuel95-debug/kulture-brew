@@ -1,2 +1,2 @@
-Kuture Roast Co. — Sip the Culture, Taste the Roast
-At Kuture Roast Co., every bean tells a story. We craft small-batch, ethically sourced coffee that awakens your senses and fuels your day. Bold flavors, smooth roasts, and a touch of culture — made for coffee lovers who crave freshness, quality, and experience in every cup.
+Kuture Roast Co. —Cultured Roasts. Crafted Moments.
+At Kuture Roast Co., we believe every cup of coffee should be an experience. From ethically sourced beans to small-batch roasting, each roast is crafted with care to deliver bold flavors and smooth finishes. More than just coffee, we create moments — whether it’s a morning boost, an afternoon pick-me-up, or a quiet pause in your day. Sip the culture, taste the craftsmanship, and savor every moment with Kuture Roast Co.
